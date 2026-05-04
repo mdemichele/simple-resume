@@ -21,3 +21,7 @@ This command lists the full dependency tree of package.json. Like the above comm
 # npm audit
 
 This is another great command for understanding the state of your dependencies. Nearly every JavaScript project I've worked on contains numerous outdated packages. Using `npm audit` is a great way to tell which of these packages need to be updated. Some of these packages might even need to be updated with a little more urgency if they contain vulnerabilities labeled as "critical". I've found that npm audit is also a great way to tell which libraries may be unmaintained. If a package contains numerous vulnerabilities that haven't been fixed for a long time, it might be a good sign that the project may no longer be actively maintained. 
+
+# npm help <command>
+
+# npm help-search <query>
