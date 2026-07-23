@@ -16,5 +16,4 @@ email_address: m.d.demichele@gmail.com
 medium: mattdemichele
 # Build settings
 markdown: kramdown
-plugins: 
-  - rcsv
+plugins: []
